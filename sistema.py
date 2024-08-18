@@ -24,11 +24,11 @@ def calcula_imc():
 def avalia_imc():
     imc = calcula_imc()
     if imc < 18.5:
-        return "Abaixo do peso."
+        return "abaixo do peso."
     elif imc >= 18.5 and imc < 25:
-        return "Com o peso ideal"
+        return "com o peso ideal"
     else:
-        return "Com Sobrepeso."
+        return "com Sobrepeso."
     
 ler_dados()
 imc = calcula_imc()
